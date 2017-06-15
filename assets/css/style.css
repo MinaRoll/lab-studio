@@ -177,6 +177,48 @@ p.cursi{
     height: 200px;
 }
 
-.izq{
+.circle-5{
+    background: #FED136; /*amarillo claro*/
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    wwidth: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.circle-5 h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+.izq .text1{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.izq .text1 h3{
+    margin: 5px 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.der .text2{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+.der .text2 h3{
+    margin: 5px 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.izq, .der, .circle-yellow{
+    padding: 6vh 0;
     display: flex;
 }
