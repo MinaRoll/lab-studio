@@ -104,3 +104,32 @@ p.cursi{
 #services-row{
     margin: 9vh 0;
 }
+
+/* Portafolio */
+.portafolio{
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 5vh 5vh;
+}
+.porta-group{
+    margin: 0 auto;
+}
+.porta-img{
+    background-color: #EEEEEE;
+    padding: 5px;
+}
+.margen{
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #fff;
+    max-width: 400px;
+}
+.portafolio h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.portafolio h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
