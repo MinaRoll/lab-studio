@@ -30,3 +30,37 @@ p.cursi{
     font-size: 30px;
 }
 
+/* Header */
+.header{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.header .texto{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+.header .texto h2{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-size: 50px;
+}
+.header .texto h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+}
+.header .texto button{
+    background-color: #FED136;
+    padding: 20px 30px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px;
+}
