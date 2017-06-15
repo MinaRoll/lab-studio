@@ -64,3 +64,43 @@ p.cursi{
     font-size: 20px;
     margin: 20px;
 }
+
+/* Services */
+.services{
+    text-align: center;
+    padding: 10vh 5vh;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #FED136;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.circle i{
+    margin: 0 auto;
+    color: #fff;
+    font-size: 50px;
+}
+.services h1, .services h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+.services h1{
+    font-size: 40px;
+}
+
+.services p{
+    font-family: 'Droid Serif', serif;
+    color: #77787a;
+    font-size: 12px;
+}
+#services-row{
+    margin: 9vh 0;
+}
