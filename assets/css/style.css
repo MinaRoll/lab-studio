@@ -133,3 +133,50 @@ p.cursi{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+
+/* About */
+.text-about{
+    text-align: center;
+}
+
+.circle-1{
+    
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+}
+.col-img{
+    
+
+}
+.circle-2{
+    background-image: url(../img/2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+}
+.circle-3{
+    background-image: url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.circle-4{
+    background-image: url(../img/4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.izq{
+    display: flex;
+}
